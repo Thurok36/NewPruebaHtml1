@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--etiqueta obligatoria-->
+    <title>Marcas de carros</title>
+    <link rel="stylesheet" href="css_Stilos/Estilo1.css"/>
+    <script src="https://kit.fontawesome.com/3483ff7417.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+    <header><!--header - colocar logos, titulos de la pagina, menu-->
+        
+            <a href= "Index3.html" title="titulo nueva pagina enlazada">
+        
+        <center><img src="img/LogoCarros3.jpg" alt ="texto imagen"/></center> <!-- width --> 
+        </a>
+
+        <nav class= "menu">  <!--menu-->
+
+            <ul>
+                <li><a href="https://www.chevrolet.com.co/">Chevrolet  </a></li>    
+                <li><a href="https://www.kia.com.co/">  Kia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <center>
+        <h1>Formulario prueba</h1>
+        </center>
+         
+        <form class="formulario">
+            <label class="formularioLabel"for="Nombre">Nombre:</label>
+            <input class="formularioInput" type="text"name="txtNombre"  required placeholder="ingrese nombre"></input>
+            <br/>
+            <label class="formularioLabel">Correo electrónico:</label>
+            <br/>
+            <input type="email" name="txtEmail"></input>
+            <br/>
+            <br/>
+            <label class="formularioLabel">Teléfono:</label>
+            <br/>
+            <input type="number" name="txtTelefono" min="999999" max="999999999" ></input>
+            <br/>
+            <br/>
+            <label class="formularioLabel">Ingrese fecha:</label>
+            <br/>
+            <input type="date" name="txtFecha" ></input>
+            <br/>
+            <br/>
+            
+            <br/>
+            <br/>
+            <label class="formularioLabel">Mes:</label>
+            <br/>
+            <input type="month" name="txtMes" ></input>
+            <br/>
+            <br/>
+            <label class="formularioLabel">Escoja vehiculo:</label>
+            <br/>
+            <select name="Vehiculos">
+                <option value="1">chevrolet</option>
+                <option value="1">kia</option>
+            </select>
+            <br/><br/>
+           
+            <label >COMENTARIOS:</label>
+            <br/><br/>
+            <textarea name="Comentarios" rows=3 cols=50>
+                ingrese sus comentarios
+            </textarea>
+            <br/><br/>
+            <!--<button type="button" *** lo unico que copia es: ****class="btn btn-warning"**** >Warning</button>-->
+            <input class="btn btn-warning"type="submit" value="Guardar">
+            <input class="btn btn-danger"type="submit" value="Cancelar">
+            <br/>
+            <br/>
+        </form>
+        <br/><br/>
+        <center>
+        <h1>Tablas</h1>
+        <table class="estiloTabla">
+        
+            <tr>
+                <td>spark</td>
+                <td>sail</td>
+                <td>onix</td>
+                <th>Traker</th>
+                <td>tahoe</td>
+            </tr>
+            <tr>
+                <td>Picanto</td>
+                <td>Rio</td>
+                <td>cerato</td>
+                <th>Sportage</th>
+                <th>Carens</th>
+            </tr>
+
+        </table>
+         </center>
+        <br/>
+        <br/>
+        <footer>
+            <center><p> pie de pagina</p></center>
+        </footer>    
+        
+    
+    </main>
+    
+    <footer>
+        <center>Curso HTML</center>
+
+        <div class="diseño_caja1">
+
+            <div class="tituloeicono">
+                <div class="cajatitulo">
+                </div>    
+                <div class="cajaicono">
+                    <i class="fas fa-car"></i>
+
+                </div>
+            </div>
+
+            <h1>Titulo div1</h1>
+            <p id="parr1">parrafo1</p>
+            <p>parrafo2</p>
+
+            <button class="botondiv">
+                Guardar
+            </button>
+        </div>
+        
+        <div class="diseño_caja1">
+            <h1>Titulo div2</h1>
+            <p id="parr1">parrafo1</p>
+            <p>parrafo2</p>
+
+        </div>
+        
+        <div class="diseño_caja1">
+            <h1>Titulo div3</h1>
+            <p id="parr1">parrafo1</p>
+            <p>parrafo2</p>
+
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="color1 col-12 col-md-6 col-xl-2">1</div> 
+                <div class="color2 col-12 col-md-6 col-xl-2">2</div> 
+                <div class="color3 col-12 col-md-6 col-xl-2">3</div> 
+                <div class="color1 col-12 col-md-6 col-xl-2">4</div> 
+                <div class="color2 col-12 col-md-6 col-xl-2">5</div> 
+                <div class="color3 col-12 col-md-6 col-xl-2">6</div> 
+            </div>
+
+
+        </div>
+
+    </footer>
+  
+</body>
+</html>

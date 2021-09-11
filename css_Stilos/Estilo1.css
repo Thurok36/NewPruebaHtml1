@@ -1,0 +1,181 @@
+h1{
+    color:rgb(7, 51, 29);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    background-color:rgb(33, 156, 28)
+}
+p{
+    color: rgb(155, 99, 16);
+    font-size: medium;
+}
+table{
+    border: 1;
+    color:crimson
+}
+/*  sintaxis para etiqueta ya prestablecidas*/
+th{  
+
+    color: chocolate;
+
+}
+
+div{
+
+    width: 28%;
+    height: 28%;
+    display: inline-block;
+}
+
+/*  sintaxis para varias  etiquetas*/
+.diseño_caja1{
+
+    /*width: 50%;
+    height: 100px;*/
+    border-style: solid;
+    color: blue;
+    background-color: cadetblue;
+    margin: 1% 1% 1% 1%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    /*  sintaxis para una sola etiqueta*/
+}
+#parr1{
+    color: green;
+}
+body{
+    background-color:#ffffff
+
+}
+.tituloeicono{
+    display: flex;
+}
+.cajatitulo{
+
+    width: 50%;
+    height: 60px;
+    background-color: brown;
+}
+.cajaicono{
+    width: 50%;
+    height: 60px;
+    
+background-color: crimson;
+}
+.botondiv{
+background-color: orange;
+width: 150px;
+height: 40;
+color: #ffffff;
+
+}
+.menu ul {
+
+    display: flex; /*  lo coloca en linea horizontal*/
+    list-style: none;
+    justify-content: center;
+
+}
+.menu li a{
+    display: block;
+    background-color: steelblue;
+    color: #ffffff;
+    width: 200px;/*  cambia el tamaño en forma horizontal*/
+    height: 70px;/*  cambia el tamaño en forma vertical*/
+    border-style: solid;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+.menu a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+.formulario{
+    width: 40%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
+.formularioLabel{
+    width: 30%;
+    margin: 5%;
+}
+.formularioInput{
+    width: 30%;
+    margin: 5%;
+    display: inline-block;
+}
+.estiloTabla{
+    width: 50%;
+    border-collapse: separate;
+}
+table, th,td{
+
+    border: 1px solid black;
+    
+}
+th{
+background-color: darkgray;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.color1{
+    background-color: aqua;
+}
+.color2{
+    background-color: blueviolet;
+}
+.color3{
+    background-color: chocolate;
+}
+/*condicion para ajustar a tamaño de pantalla de celular*/
+@media(max-width:640px) {
+    
+    .menu ul {
+
+        display: block; /*  lo coloca en linea horizontal*/
+        width: 90%;
+    }
+    .menu li a{
+        width: 90%;
+    }
+    .formulario{
+        width: 90%;
+        
+    }
+    .formularioLabel{
+        width: 40%;
+        
+    }
+    .formularioInput{
+        width: 50%;
+        
+    }
+    .diseño_caja1{
+
+        /*width: 50%;
+        height: 100px;*/
+        border-style: solid;
+        color: blue;
+        background-color: cadetblue;
+        margin: 1% 1% 1% 1%;
+        padding: 0.5% 0.5% 0.5% 0.5%;
+    }
+}
+/*condicion para ajustar a tamaño de pantalla de tablet*/
+@media(min-width:640px)and (max-width:1280px){
+
+    .formulario{
+        width: 100%;
+        
+    }
+    .formularioLabel{
+        width: 45%;
+        
+    }
+    .formularioInput{
+        width: 45%;
+        
+    }
+
+}
